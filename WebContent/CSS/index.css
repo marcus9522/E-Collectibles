@@ -1,0 +1,300 @@
+body {margin: 0;background-color:#158f9d; overflow-x:hidden;}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li.right {float: right;}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover {background-color: #111;}
+
+ul.topnav li a:FOCUS {background-color: #158f9d;}
+
+section#categorie {
+	display: table-cell;
+	background-color: #158f9d;
+    width: 200px;
+    padding: 15px;
+    width: 10%;
+    vertical-align: top;
+    float:left;
+    padding-bottom: 40%;
+}
+
+section#categorie a{font-family: Courier New;color:white;transition:font-size 0.25s;}
+
+section#categorie a:hover{color:black;background-color: white;font-size:18px;}
+
+section#categorie button{width:100%;text-align: center;}
+
+section#prodotto{background-color: #158f9d;padding-bottom: 20%}
+
+#registrazione{background-color: #158f9d;}
+
+div.registrazione input{
+	width: 20%;
+    height: 20px;
+    background: #ffffff;
+    font-family: Courier New;
+    color: black;}
+    
+div.registrazione {background-color: #158f9d;}
+
+#role{width: 5%;}
+
+#registra{ width: 18%;background-color: #333;color:white;border:silver;}    
+
+div.filtra input{
+	width: 10%;
+    height: 20px;
+    background: #ffffff;
+    font-family: Courier New;
+    color: black;}
+
+div.filtra {  background-color: #158f9d;padding-bottom: 60%;}
+
+#offerta{width: 2%;}
+
+#filtra{ width: 5%;background-color: #333;color:white;border:silver;}
+
+div.ricerca{background-color: #158f9d;padding-bottom: 20%;}
+
+#login {background-color: #158f9d;padding-bottom: 30%;}     
+
+#log{ width: 5%;background-color: #333;color:white;border:silver;	}
+
+#info{background-color: #158f9d;padding-bottom: 30%;font-style:oblique;}
+
+#info h3{text-align: center;font-family: Courier New;}   
+
+#ordini{background-color: #158f9d;padding-bottom: 30%;}  
+
+#ordini select{width: 15%;font-family: Courier New;color:background;}
+
+#ord{ width: 8%;background-color: #333;color:white;border:silver;} 
+
+#prodotti{background-color: #158f9d;padding-bottom: 30%; }  
+
+#prodotti select{width: 15%;font-family: Courier New;color:background;}
+
+#prod{ width: 8%;background-color: #333;color:white;border:silver;	}
+
+#insprodotto{background-color: #158f9d;padding-bottom: 30%;}  
+
+#insprod{ width: 8%;background-color: #333;color:white;border:silver;	}  
+
+#utenti{background-color: #158f9d;padding-bottom: 30%;}  
+
+#utenti select{width: 15%;font-family: Courier New;color:background;}
+
+#ute{width:8%;background-color: #333;color:white;border:silver;	}	
+
+#carrello{background-color:#158f9d;padding-bottom:30%;}
+
+#carrello td{font-family:cursive;}
+
+#lista{background-color:#158f9d;padding-bottom:30%;}
+
+#lista td{font-family:cursive;}    	          	      
+
+div.main1 {
+  background-color: #158f9d;
+  font-size:        105%;
+  padding:          15px;
+  width:            100%;  
+}
+
+div.main1 button{width:88%;}	
+
+div.offerteDiv{
+	align:center;
+	float:left;
+	padding-right: 1,5%;
+	padding-left: 2%;
+               }
+
+div.offerteDiv a:VISITED{color:blue;font-family: cursive;}
+
+div.offerteDiv a{color:blue;font-family:cursive;font-size: 80%;}
+
+div.offerteDiv a:HOVER{color:red;};
+
+div.ecollectibles{align=center;background-color:#ffffff; }
+
+div.ecollectibles h1{
+	font-style:oblique;
+	font-size:250%;
+	text-shadow: navy;
+	color: blue;
+	background-color: #ffffff;
+}
+div.main2 {
+  background-color: #158f9d;
+  font-size:        105%;
+  padding:          15px;
+  width:            100%;	
+}
+
+div.main2 button{width:88%;}
+
+div.search{background-color: #4CAF50;padding-bottom: 0.25%;}
+
+div.search input{
+	width: 50px;
+    height: 20px;
+    background: #ffffff;
+    transition: width 2s;
+    font-family: Courier New;
+    color: black;
+}
+
+div.search input:FOCUS {width: 30%;}
+
+#cerca{ width: 5%;
+	   background-color: #333;
+       color:white;
+       border:silver;	
+	}
+
+button{background-color: #333;
+       color:white;
+       border:silver;
+       font-size: 10px;
+       }
+
+div.footer{background-color:#158f9d ;
+           color:white;
+           text-align: center;
+           align:center;
+           padding-top:40%;
+           float: inherit;	
+               }  
+
+div.offerteDiv2{background-color:#158f9d;align:center;float:left;}
+
+div.offerteDiv2 p{font-family: cursive; font-size:100%;}
+
+div.offerteDiv2 a:VISITED{color:blue;}
+
+div.utente{background-color:#158f9d;align:center;display:list-item;}
+
+div.admin {background-color:#158f9d;}
+
+div.admin a{font-family: Courier New;
+	        color:#4CAF50;
+	        transition: font-size 0.25s;
+	        font-size: 300%;
+	         }
+
+div.admin a:hover{color:black;background-color:white;font-size:250%;}
+
+div.admin h2{ 
+     font-style:oblique;
+	 font-size:100%;
+	 text-shadow:navy;
+	 color:#333;
+	 }
+
+div.user{background-color:#158f9d;}
+
+div.user a{font-family: Courier New;
+	        color:#4CAF50;
+	        transition: font-size 0.25s;
+	        font-size: 300%;
+	         }
+
+div.user a:hover{color:black;background-color: white;font-size:250%;}
+
+div.user h2{ 
+    font-style:oblique;
+	font-size:100%;
+	text-shadow: navy;
+	color:#333 ;
+	}
+div.recensioni th{font-family: Courier New;font-size:100%;}
+
+#nrec{color:red;}
+
+#utente{font-family:fantasy	;font-size:100%;}
+
+#testo{resize:none;}
+
+#email {
+    padding: 0.2% 1%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+#email:focus {border: 3px solid #4CAF50;}
+#irec:focus {border: 3px solid #4CAF50;}
+#citta:focus {border: 3px solid #4CAF50;}
+#provincia:focus {border: 3px solid #4CAF50;}
+
+
+
+div.descrizione {font-family:cursive;font-size:90%;}
+
+@media screen and (max-width: 1000px){
+	section#categorie{float:inherit;width:0.1%;padding-bottom: 10%}
+    section#categorie h1{font-size: 90%;}
+    section#categorie button {float: left;}
+    div.registrazione {width: 80%;float: none;}
+    div.footer{padding-top:140%;}
+    #ordini select{width: 55%;}
+    #ord{width:40%;} 
+    #filtra{width:18%} 
+    #ute{width:40%;}
+    #prod{width:40%;}
+    #prodotti select{width: 55%;} 
+    #insprod{width:40%;}
+    #testo{width: 50%;height: 30px;}
+    div.offerteDiv a:HOVER{color:red;font-size: 80%;};
+}	
+	
+@media screen and (max-width: 600px){
+    ul.topnav li.right,ul.topnav li{float:none;}
+    section#main1{float:none;width:50%;}
+    section#main2{float:none;width:70%;}
+    section#categorie{float:none;width:0.1%;}
+    section#categorie h1{font-size: 90%;}
+    div.registrazione input {width: 60%;}
+    div.registrazione{width: 120%;float:none;}
+    div.footer{padding-top:290%; display: none;}
+    div.filtra label{text-align: justify;}	
+    #filtra{width:20%}
+    #log {width:18%} 
+    #cerca{width:18%} 
+    #ordini select{width: 55%;}
+    #ord{width:40%;}
+    #utenti select{width: 55%;} 
+    #ute{width:40%;}
+    #prod{width:40%;}
+    #prodotti select{width: 55%;} 
+    #insprod{width:40%;}
+    #offerta{ border: 0px;width:5%;height:2%;}
+    #testo{width: 50%;height: 30px;} 
+    div.recensioni td{float:inherit;} 
+    #selectc{width:20%;}
+    div.offerteDiv a:HOVER{color:red;font-size: 80%;}
+    div.offerteDiv{padding-right: 10%;}
+	}
+
+}
